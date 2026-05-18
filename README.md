@@ -6,13 +6,13 @@ This project uses multiple linear regression to identify what factors most signi
 
 ## Steps
 
-- exploratory data analysis    # summary statistics, graphs
-- initial full model           # uses all 10 predictors, checks VIF for multicollinearity
+- exploratory data analysis    // summary statistics, graphs
+- initial full model           // uses all 10 predictors, checks VIF for multicollinearity
 	- remove s1 due to severe multicollinearity
 	- Box-Cox transformation to correct non-constant variance
-- L.I.N.E. assumptions tests   # residual plots, shapiro-wilks, ncv testing
-- backward selection           # removes predictors with high p-values (>0.05)
-- final model                  # recheck L.I.N.E tests on model after removals/transformations, 
+- L.I.N.E. assumptions tests   // residual plots, shapiro-wilks, ncv testing
+- backward selection           // removes predictors with high p-values (>0.05)
+- final model                  // recheck L.I.N.E tests on model after removals/transformations, 
 
 
 
@@ -27,8 +27,8 @@ The final model (Target ~ Sex + BMI + BP + S3 + S5) explains 50.18% of the varia
 MLR-on-Diabetes-Progression/
 - dataset 
 	- Diabetes.txt
-- diabetes_progression.R    # r-code with comments
-- report.pdf                # original report for class 
+- diabetes_progression.R    // r-code with comments
+- report.pdf                // original report for class 
 - README.md
 
 
