@@ -1,0 +1,3 @@
+# Multiple Linear Regression on Diabetes Progression
+
+This project uses LINE assumptions testing and backward selection to identify what factors most significantly predict the progression of diabetes one year after baseline. The dataset contains 442 patients with 10 predictors, age, sex, body mass index, average blood pressure and six blood serum measurements. The target variable is the disease progression indicator, called Target here.
